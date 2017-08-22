@@ -1,0 +1,187 @@
+@font-face {
+	font-family: icing;
+	src: url(assets/icing.ttf);	
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;	
+	background-color: #c9a2b5;
+}
+header {
+	position: relative;
+	z-index: 1;
+	width: 960px;
+	height: 220px;
+	margin: -20px 0px 0px -1px;
+	background-image: url(assets/header.png);
+	background-repeat: no-repeat;
+}
+nav {
+	position: relative;
+	z-index: 2;
+	margin-top: -240px;	
+	font-family: icing;
+	font-size: 36px;
+}
+#logo {
+	width: 270px;
+	height: 120px;
+	padding-top: 35px;
+}
+table {
+	margin: 0 auto;
+}
+nav td {
+	width: 110px;
+	text-align: center;
+}
+
+nav a:link, nav a:active, nav a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav a:hover, footer a:hover {
+	color: #d0007c;	
+}
+#container {
+	width: 959px;
+	min-height: 560px;
+	margin: 0 auto;
+	background-image: url(assets/bg.png);	
+	box-shadow: 2px 2px 2px #000000;
+}
+#content {
+	position: relative;
+	width: 750px;
+	min-height: 330px;
+	margin: 0 auto;
+	margin-top: -120px;
+	padding: 150px 10px 10px 10px;
+	background-color: rgba(255,255,240,0.8);
+	z-index: 0;
+	border-radius: 20px;
+}
+dl {
+	font-size: 20px;
+	color: #d0007c;	
+}
+dt {
+	color: #d4591d;	
+	font-style: italic;
+	font-size: 24px;
+}
+h1 {
+	text-align: center;
+	font-family: icing;
+	font-size: 46px;
+	color: #009bd5;
+}
+#photos {
+	width: 580px;
+	margin: 0 auto;	
+}
+#photos img {
+	margin: 5px;
+	border: 1px solid black;	
+}
+footer {
+ height: 70px;
+ background-color: #ff7bac;	
+ margin-top: 10px;
+}
+footer a{
+	float: left;
+	list-style-type: none;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #ffffff;	
+}
+ul {
+	float: left;
+	list-style-type: none;
+}
+p {
+	text-align: center;	
+	font-size: 20px;
+	color: #d0007c;
+	border-bottom: 2px solid #d0007c;
+	padding-bottom: 10px;
+}
+#clear {
+	clear: both;
+}
+#content td {
+	padding: 5px 30px;	
+	font-size: 22px;
+	color: #d0007c;
+}
+form {
+	width: 400px;	
+	/*margin: 0 auto;*/
+}
+fieldset {
+	margin: 10px;
+	border-color: #d0007c;
+	padding-bottom: 10px;
+}
+legend {
+	text-transform: uppercase;
+	color: #d0007c;
+	padding: 5px;
+}
+form p {
+	text-align: left;	
+}
+input[type=radio], input[type=checkbox], label {
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+label, form p, textarea, button {
+	margin-left: 5px;	
+}
+#cupcakeHolder {
+	position: absolute;
+	top: 380px;
+	left: 450px;
+	text-align: center;	
+}
+#ccFlavor {
+	position: relative;
+	z-index: 2;
+	width: 272px;
+	height: 223px;
+	background-image: url(assets/vanillaCC.png);
+	background-size: 272px 223px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: -120px;	
+}
+#icing {
+	position: relative;
+	z-index: 3;
+	width: 272px;
+	height: 224px;
+	background-size: 272px 224px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#ccSprinkles, #ccFlowers, #ccShavings, #ccCandy {
+	width: 272px;
+	height: 224px;
+	position: relative;
+	top: -225px;
+	visibility: hidden;
+}
+#ccSprinkles {
+	top: 0px;	
+}
+#ccShavings {
+	top: -685px;	
+}
+#ccCandy {
+	top: -460px;	
+}
+#video {
+	border: 1px solid black;
+	margin-left: 100px;	
+	margin-top: 50px;
+}
